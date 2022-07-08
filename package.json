@@ -1,8 +1,8 @@
 {
-  "name": "unfitaffectionatebacktick",
+  "name": "renode-design-url-shortener",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "@notionhq/client": "^1.0.4",
     "asynckit": "^0.4.0",
