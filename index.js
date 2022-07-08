@@ -16,9 +16,3 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/',route);
 
 const server = http.createServer(app);
-
-const port = 8080
-
-server.listen(port, () => {
-  console.log(`Server running at http://:${port}/`);
-});
