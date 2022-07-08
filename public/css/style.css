@@ -1,0 +1,56 @@
+body {
+  overflow: hidden;
+}
+
+.hero {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hero.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.small {
+    letter-spacing: .5em;
+}
+
+.highlight {
+  width: auto!important;
+  border-radius: 6px;
+  padding: 3px 6px;
+  display: inline-block;
+  font-size: 4vh;
+}
+
+.success .highlight {
+    background-image: linear-gradient(to right, #F46036, #2E294E, #1B998B, #60D394);
+}
+
+.fail.highlight {
+    background-image: linear-gradient(to right, #D7263D, #F46036, #1B998B);
+}
+
+.circle {
+  font-size: 6vh;
+  font-weight: bold;
+  cursor: pointer;
+  color: white!important;
+}
+
+.success.circle {
+  background-color: #60D394!important;
+}
+
+.fail.circle {
+  background-color: #D7263D!important;
+}
+
+.fail.circle i.circleText:after {
+  content: "Failed";
+}

@@ -1,0 +1,32 @@
+{
+  "name": "unfitaffectionatebacktick",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@notionhq/client": "^1.0.4",
+    "asynckit": "^0.4.0",
+    "body-parser": "^1.20.0",
+    "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
+    "dotenv": "^16.0.1",
+    "dotenvs": "^1.0.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "faker": "^5.5.3",
+    "form-data": "^3.0.1",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "node-fetch": "^2.6.7",
+    "socket.io": "^4.5.1",
+    "tr46": "^0.0.3",
+    "webidl-conversions": "^3.0.1",
+    "whatwg-url": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
