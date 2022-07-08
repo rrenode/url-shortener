@@ -18,5 +18,5 @@ app.use('/',route);
 const server = http.createServer(app);
 
 server.listen(process.env.PORT || 3000, () => {
-  console.log(`Server running at http://:${port}/`);
+  console.log(`Server running at http://:${process.env.PORT}/`);
 });
